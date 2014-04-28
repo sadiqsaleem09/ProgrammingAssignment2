@@ -2,6 +2,8 @@
 ## is potentially a time-consuming computation, esp if it has to be calculated
 ## repeatedly
 
+## Authored by: Sadiq Saleem (sadiqsaleem09)
+
 ## The following function creates a special matrix that can 
 ## cache its inverse
 
