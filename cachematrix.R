@@ -4,7 +4,7 @@
 
 ## Authored by: Sadiq Saleem (sadiqsaleem09)
 
-## The following function creates a special matrix that can 
+## The following function creates a special matrix object that can 
 ## cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -23,7 +23,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## The following function calculates the inverse of the special matrix
-## created by makeCacheMatrix function above
+## created by makeCacheMatrix function above. If the inverse is already calculated
+## then cacheSolve should retrieve the inverse from cache.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
